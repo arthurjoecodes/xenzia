@@ -97,7 +97,6 @@ def check_collisions(snake):
         return True
     for body_part in snake.coordinates[1:]:
         if x == body_part[0] and y == body_part[1]:
-            print('Game Over')
             return True
     return False
 
